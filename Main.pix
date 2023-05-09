@@ -1,0 +1,2446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
+  <CompilationType>CSharp</CompilationType>
+  <Description i:nil="true" />
+  <Id>9c811321-60af-4240-96bd-426aa0056b7a</Id>
+  <Logic z:Id="i2" i:type="ExecutedStep">
+    <Childs>
+      <AbstractStep z:Id="i3" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i4" i:type="ExecutedStep">
+            <Childs />
+            <Id>94c84d19-c822-49d1-81ef-05dbcc7be0ce</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i5">
+                <PropertyName>FilePath</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>@"D:\repos\Открытие тест\WinForms_RatchetX.MyCRM_x86.exe"</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i6">
+                <PropertyName>Arguments</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i7">
+                <PropertyName>Timeout</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:int">0</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i8">
+                <PropertyName>EncodingString</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:string">utf-8</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i9">
+                <PropertyName>CreateNoWindow</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">true</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i10">
+                <PropertyName>UseShellExecute</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">true</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i11">
+                <PropertyName>ProcessId</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i12">
+                <PropertyName>ResultProcess</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId>0</SelectedOptionId>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Retry</ExceptionHandlingMode>
+            <RetryCount>1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Processes.StartProcess</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i13" i:type="ExecutedStep">
+            <Childs />
+            <Id>47c112c6-a3ae-4fd2-81c0-df9cd518437c</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i14">
+                <PropertyName>URL</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>"https://www.fakenamegenerator.com/gen-random-us-us.php"</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i15">
+                <PropertyName>Timeout</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:int">10</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i16">
+                <PropertyName>LaunchArgs</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i17">
+                <PropertyName>TabHeader</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i18">
+                <PropertyName>TabUrl</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i19">
+                <PropertyName>ExactMatch</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">false</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i20">
+                <PropertyName>IncognitoMode</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">false</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i21">
+                <PropertyName>Browser</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>chromeInstance1</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId>0</SelectedOptionId>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Web.LaunchChrome</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i22" i:type="ExecutedStep">
+            <Childs />
+            <Id>ee03afaa-766e-4421-9892-048d44399ed7</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i23">
+                <PropertyName>TextType</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Web.Core.Enums" i:type="d9p1:WebTextType">Text</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i24">
+                <PropertyName>Value</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>fullName</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i25">
+                <PropertyName>Element</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i26">
+                <PropertyName>SearchBy</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Web.Core" i:type="d9p1:ElementSearchBy">XPath</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i27">
+                <PropertyName>SearchString</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>@"//div[@class='address']//h3"</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i28">
+                <PropertyName>Timeout</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:int">10</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i29">
+                <PropertyName>Browser</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>chromeInstance1</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId>0</SelectedOptionId>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Web.GetText</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i30" i:type="ExecutedStep">
+            <Childs />
+            <Id>bec6df63-f020-46c0-b7c3-65c585f83309</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i31">
+                <PropertyName>Browser</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>chromeInstance1</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Web.CloseBrowser</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i32" i:type="ExecutedStep">
+            <Childs />
+            <Id>5d44cc48-6cbc-4974-bb7a-4919d8d7f35e</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i33">
+                <PropertyName>СonvertibleString</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>fullName</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i34">
+                <PropertyName>Separator</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>" "</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i35">
+                <PropertyName>Result</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>names</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Strings.SplitString</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i36" i:type="ExecutedStep">
+            <Childs />
+            <Id>406fe23a-c1df-4758-a583-d8c742f03b65</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i37">
+                <PropertyName>TextType</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Web.Core.Enums" i:type="d9p1:WebTextType">Text</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i38">
+                <PropertyName>Value</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>address</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i39">
+                <PropertyName>Element</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i40">
+                <PropertyName>SearchBy</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Web.Core" i:type="d9p1:ElementSearchBy">XPath</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i41">
+                <PropertyName>SearchString</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>@"//div[@class='adr']"</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i42">
+                <PropertyName>Timeout</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:int">10</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i43">
+                <PropertyName>Browser</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>chromeInstance1</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId>0</SelectedOptionId>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Web.GetText</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i44" i:type="ExecutedStep">
+            <Childs />
+            <Id>04777f1d-53eb-4926-b551-6e4f6f905d1e</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i45">
+                <PropertyName>СonvertibleString</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>address</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i46">
+                <PropertyName>Separator</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>"\n"</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i47">
+                <PropertyName>Result</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>adr</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Strings.SplitString</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i48" i:type="ExecutedStep">
+            <Childs />
+            <Id>c2ec387d-c6a8-4c65-963e-fb762ff4dcaf</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i49">
+                <PropertyName>СonvertibleString</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>adr.Last()</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i50">
+                <PropertyName>Separator</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>","</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i51">
+                <PropertyName>Result</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>secondAdr</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Strings.SplitString</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i52" i:type="ExecutedStep">
+            <Childs />
+            <Id>e24dfc39-e123-45df-9108-709d05a5d9c0</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i53">
+                <PropertyName>СonvertibleString</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>secondAdr[0]</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i54">
+                <PropertyName>Replaceable</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>","</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i55">
+                <PropertyName>Modified</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>""</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i56">
+                <PropertyName>Result</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>city</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Strings.ChangeString</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i57" i:type="ExecutedStep">
+            <Childs />
+            <Id>aa2d5aa3-29c8-473f-aefa-d0613aaf3ee2</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i58">
+                <PropertyName>СonvertibleString</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>secondAdr.Last()</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i59">
+                <PropertyName>Separator</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>" "</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i60">
+                <PropertyName>Result</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>secondAdr</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Strings.SplitString</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i61" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i62" i:type="ExecutedStep">
+                <Childs>
+                  <AbstractStep z:Id="i63" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i64" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>f7958c64-3866-41fe-a8a3-ca53df2ae6fb</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i65">
+                            <PropertyName>Text</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>names[0]</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i66">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>XPath</_dataType>
+                            <_expression i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" z:Id="i67">
+                              <d15p1:Nodes xmlns:d16p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel">
+                                <d16p1:list>
+                                  <d15p1:XPathNode z:Id="i68">
+                                    <d15p1:AttributeOperators xmlns:d19p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                    </d15p1:AttributeOperators>
+                                    <d15p1:Attributes>
+                                      <d16p1:list>
+                                        <d15p1:XPathAttribute z:Id="i69">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>true</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>3</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name></d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i70">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Form1'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>AutomationId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i71">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WindowsForms10.Window.8.app.0.33c0d9d'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ClassName</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i72">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Window'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i73">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WinForm'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>FrameworkId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i74">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsDialog</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i75">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsEnabled</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i76">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsKeyboardFocusable</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i77">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsOffscreen</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i78">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsPassword</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i79">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'окно'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LocalizedControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i80">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'My CRM (Sample App)'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>Name</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i81">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'13300'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ProcessId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i82">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'0'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_ChildId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i83">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'My CRM (Sample App)'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_Name</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i84">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>TransformPattern_CanMove</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i85">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>TransformPattern_CanResize</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i86">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>TransformPattern_CanRotate</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i87">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>WindowPattern_CanMaximize</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i88">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>WindowPattern_CanMinimize</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i89">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>WindowPattern_IsModal</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i90">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>WindowPattern_IsTopmost</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                      </d16p1:list>
+                                    </d15p1:Attributes>
+                                    <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                    <d15p1:Name>Window</d15p1:Name>
+                                  </d15p1:XPathNode>
+                                  <d15p1:XPathNode z:Id="i91">
+                                    <d15p1:AttributeOperators xmlns:d19p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                    </d15p1:AttributeOperators>
+                                    <d15p1:Attributes>
+                                      <d16p1:list>
+                                        <d15p1:XPathAttribute z:Id="i92">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>true</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value i:nil="true" />
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name></d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i93">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'tabControl1'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>AutomationId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i94">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WindowsForms10.SysTabControl32.app.0.33c0d9d'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ClassName</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i95">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Tab'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i96">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WinForm'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>FrameworkId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i97">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsDialog</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i98">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsEnabled</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i99">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsKeyboardFocusable</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i100">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsOffscreen</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i101">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsPassword</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i102">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'вкладка'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LocalizedControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i103">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'13300'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ProcessId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i104">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'0'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_ChildId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i105">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>SelectionPattern_CanSelectMultiple</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i106">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>SelectionPattern_IsSelectionRequired</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                      </d16p1:list>
+                                    </d15p1:Attributes>
+                                    <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                    <d15p1:Name>Tab</d15p1:Name>
+                                  </d15p1:XPathNode>
+                                  <d15p1:XPathNode z:Id="i107">
+                                    <d15p1:AttributeOperators xmlns:d19p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                    </d15p1:AttributeOperators>
+                                    <d15p1:Attributes>
+                                      <d16p1:list>
+                                        <d15p1:XPathAttribute z:Id="i108">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>true</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value i:nil="true" />
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name></d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i109">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'tabPagePeople'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>AutomationId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i110">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WindowsForms10.Window.8.app.0.33c0d9d'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ClassName</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i111">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Pane'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i112">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WinForm'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>FrameworkId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i113">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsDialog</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i114">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsEnabled</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i115">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsKeyboardFocusable</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i116">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsOffscreen</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i117">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsPassword</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i118">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'панель'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LocalizedControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i119">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'People'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>Name</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i120">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'13300'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ProcessId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i121">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'0'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_ChildId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i122">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'People'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_Name</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                      </d16p1:list>
+                                    </d15p1:Attributes>
+                                    <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                    <d15p1:Name>Pane</d15p1:Name>
+                                  </d15p1:XPathNode>
+                                  <d15p1:XPathNode z:Id="i123">
+                                    <d15p1:AttributeOperators xmlns:d19p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                    </d15p1:AttributeOperators>
+                                    <d15p1:Attributes>
+                                      <d16p1:list>
+                                        <d15p1:XPathAttribute z:Id="i124">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>true</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>1</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name></d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i125">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'groupBox5'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>AutomationId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i126">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WindowsForms10.Window.8.app.0.33c0d9d'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ClassName</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i127">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Group'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i128">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WinForm'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>FrameworkId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i129">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsDialog</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i130">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsEnabled</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i131">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsKeyboardFocusable</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i132">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsOffscreen</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i133">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsPassword</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i134">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'группа'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LocalizedControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i135">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Name:'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>Name</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i136">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'13300'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ProcessId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i137">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'0'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_ChildId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i138">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Name:'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_Name</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                      </d16p1:list>
+                                    </d15p1:Attributes>
+                                    <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                    <d15p1:Name>Group</d15p1:Name>
+                                  </d15p1:XPathNode>
+                                  <d15p1:XPathNode z:Id="i139">
+                                    <d15p1:AttributeOperators xmlns:d19p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                      <d19p1:string>and</d19p1:string>
+                                    </d15p1:AttributeOperators>
+                                    <d15p1:Attributes>
+                                      <d16p1:list>
+                                        <d15p1:XPathAttribute z:Id="i140">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>true</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>2</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name></d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i141">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Alt+t'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>AccessKey</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i142">
+                                          <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'textBoxPeopleFirstName'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>AutomationId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i143">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WindowsForms10.EDIT.app.0.33c0d9d'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ClassName</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i144">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Edit'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i145">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'WinForm'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>FrameworkId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i146">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsDialog</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i147">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsEnabled</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i148">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'True'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsKeyboardFocusable</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i149">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsOffscreen</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i150">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>IsPassword</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i151">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'поле'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LocalizedControlType</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i152">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'First:'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>Name</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i153">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'13300'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ProcessId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i154">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'0'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_ChildId</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i155">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Alt+t'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_KeyboardShortcut</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i156">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'First:'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_Name</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i157">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Oscar'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>LegacyIAccessiblePattern_Value</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i158">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'False'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ValuePattern_IsReadOnly</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                        <d15p1:XPathAttribute z:Id="i159">
+                                          <d15p1:IsEnabled>false</d15p1:IsEnabled>
+                                          <d15p1:IsPositionAttribute>false</d15p1:IsPositionAttribute>
+                                          <d15p1:Operator>Equal</d15p1:Operator>
+                                          <d15p1:Value>'Oscar'</d15p1:Value>
+                                          <d15p1:_isCSharpExpression>false</d15p1:_isCSharpExpression>
+                                          <d15p1:_name>ValuePattern_Value</d15p1:_name>
+                                        </d15p1:XPathAttribute>
+                                      </d16p1:list>
+                                    </d15p1:Attributes>
+                                    <d15p1:IsEnabled>true</d15p1:IsEnabled>
+                                    <d15p1:Name>Edit</d15p1:Name>
+                                  </d15p1:XPathNode>
+                                </d16p1:list>
+                              </d15p1:Nodes>
+                              <d15p1:ScreenShotBase64>/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAtALQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2z7Nb/wDPtB/36X/Cj7Nb/wDPtB/36X/CpK5251DW59euNP0yK1YQxrITMxXg/gaAN77Nb/8APtB/36X/AAo+zW//AD7Qf9+l/wAKxfL8Y/8APDTf+/p/wo8vxj/zw03/AL+n/CgDa+zW/wDz7Qf9+l/wo+zW/wDz7Qf9+l/wrF8vxj/zw03/AL+n/Cjy/GP/ADw03/v6f8KANr7Nb/8APtB/36X/AAo+zW//AD7Qf9+l/wAKxfL8Y/8APDTf+/p/wo8vxj/zw03/AL+n/CgDa+zW/wDz7Qf9+l/wo+zW/wDz7Qf9+l/wrF8vxj/zw03/AL+n/Cjy/GP/ADw03/v6f8KANr7Nb/8APtB/36X/AAo+zW//AD7Qf9+l/wAKxfL8Y/8APDTf+/p/wo8vxj/zw03/AL+n/CgDa+zW/wDz7Qf9+l/wo+zW/wDz7Qf9+l/wrF8vxj/zw03/AL+n/Cjy/GP/ADw03/v6f8KANr7Nb/8APtB/36X/AAo+zW//AD7Qf9+l/wAKxfL8Y/8APDTf+/p/wo8vxj/zw03/AL+n/CgDa+zW/wDz7Qf9+l/wo+zW/wDz7Qf9+l/wrF8vxj/zw03/AL+n/Cjy/GP/ADw03/v6f8KANr7Nb/8APtB/36X/AAo+zW//AD7Qf9+l/wAKxfL8Y/8APDTf+/p/wo8vxj/zw03/AL+n/CgDa+zW/wDz7Qf9+l/wo+zW/wDz7Qf9+l/wrFEfi/I3w6aF7kSE4H5VvAEKoJydoycd8UAR/Zrf/n2g/wC/S/4UVJRQAVxOrX1zY6/qZtJPKnnS3tlk4+TzHC7hnuM5rtq5V9Kj1nxNrFnI7RlraJkkT7yODlWGe4ODQrdRodc2z+DbrTrmHUL65gupxBcx3Nw0uSQTuXcTtxg8D1qWx+Illd21xcPYXMUKIHifcribLBVA2k7WJI+VsGrFt4b1e5u4Ztd1aG6W1B+zpbwGMBsYDtktlh7YHJ4rMh+H12z3El5qcLSFFWB7eAxnKsGVpBkqxyo6AU2CsbEHiu4a2u3udCvbSaCMSrFNJGBIp6YfdsHToSDWbb/Em1uYkEWmTyXT3AgFvDPFL8xVmHzqxXop71Jd+FvEGq2Ekepa7byTBkaFIrYrCNpJ+dSxLZzzyBxUOl+Br211ZNRu76yMguUnMdramJPlR1wBuP8Af/SmrX1E9tDtYHeW3jkkiaF2UFo2IJU+hI4/KpKKKkAooooAKKKKACiiigAooooAKKKKACiiigBr/wCrb6GqZ7f7o/lVx/8AVt9DVM9v90fyoASiiigAqqiWNtezXG5EuZAA7eZg4HQfSrVcumk2er+NNQivY2kSO3RlAkZcH8CKAOl+22//AD8L/wB/aPttv/z8L/39qj/whWg/8+b/APgRJ/8AFUf8IVoP/Pm//gRJ/wDFUAXvttv/AM/C/wDf2j7bb/8APwv/AH9qj/whWg/8+b/+BEn/AMVR/wAIVoP/AD5v/wCBEn/xVAF77bb/APPwv/f2j7bb/wDPwv8A39qj/wAIVoP/AD5v/wCBEn/xVH/CFaD/AM+b/wDgRJ/8VQBe+22//Pwv/f2j7bb/APPwv/f2qP8AwhWg/wDPm/8A4ESf/FUf8IVoP/Pm/wD4ESf/ABVAF77bb/8APwv/AH9o+22//Pwv/f2qP/CFaD/z5v8A+BEn/wAVR/whWg/8+b/+BEn/AMVQBe+22/8Az8L/AN/aPttv/wA/C/8Af2qP/CFaD/z5v/4ESf8AxVH/AAhWg/8APm//AIESf/FUAXvttv8A8/C/9/aPttv/AM/C/wDf2qP/AAhWg/8APm//AIESf/FUf8IVoP8Az5v/AOBEn/xVAF77bb/8/C/9/aPttv8A8/C/9/ao/wDCFaD/AM+b/wDgRJ/8VR/whWg/8+b/APgRJ/8AFUAXvttv/wA/C/8Af2j7bb/8/C/9/ao/8IVoP/Pm/wD4ESf/ABVH/CFaD/z5v/4ESf8AxVAF77bbkYNwv/f2pCQ2COmBis3/AIQ3Qo/nW0fcvIzPIf61pEABQBgBRgfhQAlFFFAH/9k=</d15p1:ScreenShotBase64>
+                            </_xpathSettings>
+                          </PropertyValue>
+                          <PropertyValue z:Id="i160">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i161">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i162">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i163">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>0</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.EnterTextElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i164" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>d8c9497e-c762-4f9d-812f-4ca8ed292faf</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i165">
+                            <PropertyName>Text</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>names.Last()</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i166">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"/Window[@AutomationId = 'Form1' and @Name = 'My CRM (Sample App)']//Edit[@AutomationId = 'textBoxPeopleLastName']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i167">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i168">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i169">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i170">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>0</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.EnterTextElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i171" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>9ec85cab-859f-46ca-9ddc-a4936c3ca1f8</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i172">
+                            <PropertyName>Text</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>adr[0]</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i173">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"/Window[@Name = 'My CRM (Sample App)']//Edit[@Name = 'Add Line 1:']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i174">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i175">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i176">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i177">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>0</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.EnterTextElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i178" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>9bcf0903-22e2-4640-abcd-8c25d5d8a961</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i179">
+                            <PropertyName>Text</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>city</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i180">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"/Window[@Name = 'My CRM (Sample App)']//Edit[@Name = 'City:']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i181">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i182">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i183">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i184">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>0</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.EnterTextElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i185" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>e218a6ae-feaa-4ca9-8108-2ae6b8a2a545</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i186">
+                            <PropertyName>Text</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>"A"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i187">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"/Window[@Name = 'My CRM (Sample App)']//ComboBox[@Name = 'State:']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i188">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i189">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i190">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i191">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>0</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.EnterTextElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i192" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>9f953fd4-1cb7-4e02-b83a-ecfc151a27fc</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i193">
+                            <PropertyName>Text</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>secondAdr[1][0].ToString()</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i194">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"/Window[@Name = 'My CRM (Sample App)']//ComboBox[@Name = 'State:']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i195">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i196">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i197">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i198">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>0</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.EnterTextElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i199" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>76756807-41a0-4dbe-b218-907a083667b6</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i200">
+                            <PropertyName>ClickType</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:MouseClickType">Left</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i201">
+                            <PropertyName>CoordinateType</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Enums" i:type="d15p1:CoordinateType">ClickablePoint</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i202">
+                            <PropertyName>CoordinateX</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:double">0</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i203">
+                            <PropertyName>CoordinateY</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:double">0</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i204">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"/Window[@Name = 'My CRM (Sample App)']//ComboBox[@Name = 'State:']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i205">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i206">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i207">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i208">
+                            <PropertyName>FocusBeforeClick</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:boolean">true</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i209">
+                            <PropertyName>PercentX</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">50</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i210">
+                            <PropertyName>PercentY</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">50</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i211">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>1</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.ClickElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i212" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>9c30757a-cbe9-4eb5-b423-c599d7f54f48</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i213">
+                            <PropertyName>ClickType</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:MouseClickType">Left</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i214">
+                            <PropertyName>CoordinateType</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Enums" i:type="d15p1:CoordinateType">ClickablePoint</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i215">
+                            <PropertyName>CoordinateX</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:double">0</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i216">
+                            <PropertyName>CoordinateY</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:double">0</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i217">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@$"/List[@ClassName = 'ComboLBox']/ListItem[@Name = '{secondAdr[1]}']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i218">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i219">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i220">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i221">
+                            <PropertyName>FocusBeforeClick</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:boolean">true</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i222">
+                            <PropertyName>PercentX</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">50</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i223">
+                            <PropertyName>PercentY</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">50</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i224">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>1</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.ClickElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i225" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>74bdaa10-6775-47e9-8f80-ba6e94044934</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i226">
+                            <PropertyName>Text</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>secondAdr[2]</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i227">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"/Window[@Name = 'My CRM (Sample App)']//Edit[@Name = 'Zip:']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i228">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i229">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i230">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i231">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>0</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.EnterTextElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i232" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>997b6132-e40b-47a3-91ee-4dd879e7f305</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i233">
+                            <PropertyName>ClickType</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:MouseClickType">Left</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i234">
+                            <PropertyName>CoordinateType</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Enums" i:type="d15p1:CoordinateType">ClickablePoint</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i235">
+                            <PropertyName>CoordinateX</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:double">0</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i236">
+                            <PropertyName>CoordinateY</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:double">0</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i237">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"/Window[@Name = 'My CRM (Sample App)']//MenuItem[@Name = 'File']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i238">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i239">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i240">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i241">
+                            <PropertyName>FocusBeforeClick</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:boolean">false</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i242">
+                            <PropertyName>PercentX</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">50</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i243">
+                            <PropertyName>PercentY</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">50</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i244">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>1</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Retry</ExceptionHandlingMode>
+                        <RetryCount>1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.ClickElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i245" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>65e4e4eb-f0b6-4784-aec7-80a4d007f4c8</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i246">
+                            <PropertyName>ClickType</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:MouseClickType">Left</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i247">
+                            <PropertyName>CoordinateType</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Enums" i:type="d15p1:CoordinateType">ClickablePoint</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i248">
+                            <PropertyName>CoordinateX</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:double">0</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i249">
+                            <PropertyName>CoordinateY</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:double">0</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i250">
+                            <PropertyName>XPath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"/Window[@Name = 'My CRM (Sample App)']/Menu[@Name = 'File']/MenuItem[@Name = 'Save']"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i251">
+                            <PropertyName>SearchTimeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">4</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i252">
+                            <PropertyName>TimeToSearchElement</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">30</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i253">
+                            <PropertyName>Element</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i254">
+                            <PropertyName>FocusBeforeClick</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:boolean">true</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i255">
+                            <PropertyName>PercentX</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">50</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i256">
+                            <PropertyName>PercentY</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">50</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i257">
+                            <PropertyName>RuntimerKind</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Activities.Desktop.Core" i:type="d15p1:RuntimerKind">Local</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>1</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Desktop.ClickElement</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i258" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>08a15068-01fb-4cab-945a-da42c53131dd</Id>
+                        <Parent z:Ref="i63" />
+                        <PropertyValues />
+                        <SelectedOptionId i:nil="true" />
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>BR.Core.Base.BreakLoop</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>9ecc30a4-753e-40ba-a925-589a9588aa61</Id>
+                    <Parent z:Ref="i62" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.Try</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i259" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i260" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>e1fddcd3-4f6b-4a43-ad02-cfd18ba7caef</Id>
+                        <Parent z:Ref="i259" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i261">
+                            <PropertyName>FilePath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"D:\repos\Открытие тест\WinForms_RatchetX.MyCRM_x86.exe"</_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i262">
+                            <PropertyName>Arguments</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i263">
+                            <PropertyName>Timeout</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:int">0</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i264">
+                            <PropertyName>EncodingString</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:string">utf-8</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i265">
+                            <PropertyName>CreateNoWindow</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:boolean">true</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i266">
+                            <PropertyName>UseShellExecute</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:boolean">true</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i267">
+                            <PropertyName>ProcessId</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i268">
+                            <PropertyName>ResultProcess</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression></_expression>
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>0</SelectedOptionId>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Retry</ExceptionHandlingMode>
+                        <RetryCount>1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>Activities.Processes.StartProcess</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>bb88044f-11be-480f-9ead-15099d32a581</Id>
+                    <Parent z:Ref="i62" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i269">
+                        <PropertyName>Message</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression></_expression>
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i270">
+                        <PropertyName>StackTrace</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression></_expression>
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i271">
+                        <PropertyName>Source</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression></_expression>
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i272">
+                        <PropertyName>Exception</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression></_expression>
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.Catch</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i273" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>bb91db12-1c14-4332-b110-d555d7907c72</Id>
+                    <Parent z:Ref="i62" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.Finally</_activityFullName>
+                  </AbstractStep>
+                </Childs>
+                <Id>3eee8121-5190-4b68-9c8b-2bf3d26190be</Id>
+                <Parent z:Ref="i61" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <Id>b30da422-2f53-49f9-8dee-ba4a5af1c7e7</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i274">
+                <PropertyName>Condition</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>true</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i275">
+                <PropertyName>Counter</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.LoopWhile</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i276" i:type="ExecutedStep">
+            <Childs />
+            <Id>3300b8b9-5969-4ff0-bad0-cedae5fe50ef</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i277">
+                <PropertyName>Account</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i278">
+                <PropertyName>Subject</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>"New Lead Generated "+ DateTime.Now.ToString("yyyy.MM.dd")</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i279">
+                <PropertyName>Body</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>names[0]+" "+names.Last()</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i280">
+                <PropertyName>To</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>"sokolguitarman@gmail.com"</_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i281">
+                <PropertyName>CopyTo</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i282">
+                <PropertyName>HiddenCopyTo</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i283">
+                <PropertyName>BodyIsHTML</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">false</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i284">
+                <PropertyName>Attachment</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i285">
+                <PropertyName>AttachmentsList</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i286">
+                <PropertyName>ForwardMessage</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression></_expression>
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i287">
+                <PropertyName>DeliveryReportRequested</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">false</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i288">
+                <PropertyName>SaveAttachmentsOldMessage</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">true</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i289">
+                <PropertyName>CreateDraft</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">false</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Office.Outlook.SendMailMessage</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i290" i:type="ExecutedStep">
+            <Childs />
+            <Id>5c7345e6-bb0e-49d9-b0e2-eaeb0e54838a</Id>
+            <Parent z:Ref="i3" />
+            <PropertyValues>
+              <PropertyValue z:Id="i291">
+                <PropertyName>CSCode</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:string">System.Windows.Forms.DialogResult dialogResult = System.Windows.Forms.MessageBox.Show("Хотите ли продолжить заполнение сбор данных?","Продолжить?", System.Windows.Forms.MessageBoxButtons.YesNo);
+if(dialogResult == System.Windows.Forms.DialogResult.Yes)
+{
+    loopTrigger=true;
+}
+else if (dialogResult == System.Windows.Forms.DialogResult.No)
+{
+    loopTrigger=false;
+}</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i292">
+                <PropertyName>Timeout</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:int">0</_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <Id>235d3cf5-2542-4b48-aebb-fdd263e11cc0</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i293">
+            <PropertyName>Condition</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>loopTrigger</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i294">
+            <PropertyName>Counter</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression></_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.LoopWhile</_activityFullName>
+      </AbstractStep>
+    </Childs>
+    <Id>049a09c4-a1a1-43d1-b4ae-62dc0f73b219</Id>
+    <Parent i:nil="true" />
+    <PropertyValues />
+    <SelectedOptionId i:nil="true" />
+    <EnableStatus>true</EnableStatus>
+    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+    <RetryCount>-1</RetryCount>
+    <Text></Text>
+    <_activityFullName>BR.Core.Base.Container</_activityFullName>
+  </Logic>
+  <Name>Main.pix</Name>
+  <Params>
+    <Parameter z:Id="i295">
+      <DefaultValueExpression>true</DefaultValueExpression>
+      <Description></Description>
+      <Name>loopTrigger</Name>
+      <TypeString>System.Boolean</TypeString>
+    </Parameter>
+  </Params>
+  <Version i:nil="true" />
+</Script>
